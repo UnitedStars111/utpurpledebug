@@ -37,11 +37,13 @@
   "name":"utpurple",
   "resources":[
     {"id":{"name":"objAstral","path":"objects/objAstral/objAstral.yy",},},
+    {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sprAstralWalkDown","path":"sprites/sprAstralWalkDown/sprAstralWalkDown.yy",},},
     {"id":{"name":"sprAstralWalkLeft","path":"sprites/sprAstralWalkLeft/sprAstralWalkLeft.yy",},},
     {"id":{"name":"sprAstralWalkRight","path":"sprites/sprAstralWalkRight/sprAstralWalkRight.yy",},},
     {"id":{"name":"sprAstralWalkUp","path":"sprites/sprAstralWalkUp/sprAstralWalkUp.yy",},},
+    {"id":{"name":"sprWall","path":"sprites/sprWall/sprWall.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
