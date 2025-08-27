@@ -38,5 +38,13 @@ if (xspd != 0 or yspd != 0) {
 	image_index = 0;
 }
 
+if keyboard_check(vk_shift) {
+	movspd = 1.5;
+	image_speed = 1.5;
+} else {
+	movspd = 1;
+	image_speed = 1;
+}
+
 x += xspd;
 y += yspd;
