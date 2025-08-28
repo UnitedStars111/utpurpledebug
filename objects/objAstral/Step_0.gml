@@ -38,6 +38,7 @@ if (xspd != 0 or yspd != 0) {
 	image_index = 0;
 }
 
+// running
 if keyboard_check(vk_shift) {
 	movspd = 1.5;
 	image_speed = 1.5;
@@ -48,3 +49,5 @@ if keyboard_check(vk_shift) {
 
 x += xspd;
 y += yspd;
+
+// sprite control
