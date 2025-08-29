@@ -49,13 +49,10 @@ if keyboard_check(vk_shift) {
 		sprite_index = sprAstralRunDown;
 	} else if yspd < 0 {
 		sprite_index = sprAstralRunUp;
-}
+	}
 } else {
 	movspd = 1;
-	image_speed = 1;
 }
 
 x += xspd;
 y += yspd;
-
-// sprite control
