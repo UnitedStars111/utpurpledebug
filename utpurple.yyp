@@ -40,6 +40,7 @@
     {"id":{"name":"objAstral","path":"objects/objAstral/objAstral.yy",},},
     {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"bgruins1","path":"sprites/bgruins1/bgruins1.yy",},},
     {"id":{"name":"ruins1","path":"sprites/ruins1/ruins1.yy",},},
     {"id":{"name":"ruins2","path":"sprites/ruins2/ruins2.yy",},},
