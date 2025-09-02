@@ -15,10 +15,12 @@ yspd = (down_key - up_key) * movspd;
 
 if place_meeting(x + xspd, y, objWall) {
 	xspd = 0;
+	image_index = 0;
 }
 
 if place_meeting(x, y + yspd, objWall) {
 	yspd = 0;
+	image_index = 0;
 }
 
 if xspd > 0 {
