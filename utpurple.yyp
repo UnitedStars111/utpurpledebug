@@ -39,6 +39,7 @@
   "name":"utpurple",
   "resources":[
     {"id":{"name":"objAstral","path":"objects/objAstral/objAstral.yy",},},
+    {"id":{"name":"objTransition","path":"objects/objTransition/objTransition.yy",},},
     {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},},
     {"id":{"name":"objWarp","path":"objects/objWarp/objWarp.yy",},},
     {"id":{"name":"rmFlowerBed","path":"rooms/rmFlowerBed/rmFlowerBed.yy",},},
@@ -58,6 +59,7 @@
     {"id":{"name":"sprAstralWalkLeft","path":"sprites/sprAstralWalkLeft/sprAstralWalkLeft.yy",},},
     {"id":{"name":"sprAstralWalkRight","path":"sprites/sprAstralWalkRight/sprAstralWalkRight.yy",},},
     {"id":{"name":"sprAstralWalkUp","path":"sprites/sprAstralWalkUp/sprAstralWalkUp.yy",},},
+    {"id":{"name":"sprTransition","path":"sprites/sprTransition/sprTransition.yy",},},
     {"id":{"name":"sprWall","path":"sprites/sprWall/sprWall.yy",},},
     {"id":{"name":"sprWarps","path":"sprites/sprWarps/sprWarps.yy",},},
     {"id":{"name":"ruinstiles1","path":"tilesets/ruinstiles1/ruinstiles1.yy",},},
