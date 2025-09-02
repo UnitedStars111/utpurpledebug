@@ -46,7 +46,7 @@ if keyboard_check(vk_shift) {
 	if xspd > 0 {
 		sprite_index = sprAstralRunRight;
 	} else if xspd < 0 {
-		sprite_index = sprAstralRunLeft
+		sprite_index = sprAstralRunLeft;
 	} else if yspd > 0 {
 		sprite_index = sprAstralRunDown;
 	} else if yspd < 0 {

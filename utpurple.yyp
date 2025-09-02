@@ -67,8 +67,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rmFlowerBed","path":"rooms/rmFlowerBed/rmFlowerBed.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rmFlowerBed","path":"rooms/rmFlowerBed/rmFlowerBed.yy",},},
     {"roomId":{"name":"rmFloweyRoom","path":"rooms/rmFloweyRoom/rmFloweyRoom.yy",},},
   ],
   "templateType":"game",
