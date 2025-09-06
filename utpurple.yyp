@@ -63,6 +63,7 @@
     {"id":{"name":"sprAstralWalkRight","path":"sprites/sprAstralWalkRight/sprAstralWalkRight.yy",},},
     {"id":{"name":"sprAstralWalkUp","path":"sprites/sprAstralWalkUp/sprAstralWalkUp.yy",},},
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
+    {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
     {"id":{"name":"sprRuinsTileset1","path":"sprites/sprRuinsTileset1/sprRuinsTileset1.yy",},},
     {"id":{"name":"sprRuinsTileset2","path":"sprites/sprRuinsTileset2/sprRuinsTileset2.yy",},},
     {"id":{"name":"sprTransition","path":"sprites/sprTransition/sprTransition.yy",},},
