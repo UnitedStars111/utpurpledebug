@@ -19,7 +19,7 @@ if setup == false {
 		text_length[p] = string_length(text[p]);
 		
 		// get x position for textbox
-		text_x_offset = 40;
+		text_x_offset = 32;
 		
 		
 	}
@@ -60,5 +60,3 @@ draw_sprite_ext(txtb_sprite, txtb_image, textbox_x + text_x_offset, textbox_y, t
 // draw text
 var _drawtext = string_copy(text[page], 1, draw_char);
 draw_text_ext(textbox_x + text_x_offset + border, textbox_y + border, _drawtext, line_sep, line_width);
-
-// seriously is it actually committing or not

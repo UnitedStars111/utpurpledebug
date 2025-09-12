@@ -7,6 +7,7 @@ up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 run_key = keyboard_check(vk_shift);
 
+
 xspd = (right_key - left_key) * movespd;
 yspd = (down_key - up_key) * movespd;
 
@@ -70,5 +71,5 @@ if (xspd != 0 or yspd != 0) {
 	image_speed = 0;
 }
 
-x += xspd;
-y += yspd;
+	x += xspd;
+	y += yspd;
