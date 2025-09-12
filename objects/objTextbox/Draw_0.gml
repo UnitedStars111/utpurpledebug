@@ -1,7 +1,7 @@
 confirmkey = keyboard_check_pressed(ord("Z")) or keyboard_check_pressed(vk_space);
 skip_key = keyboard_check_pressed(ord("C"));
 textbox_x = camera_get_view_x(view_camera[0]);
-textbox_y = camera_get_view_y(view_camera[0]) + 160;
+textbox_y = camera_get_view_y(view_camera[0]) + 150;
 
 // setup
 
