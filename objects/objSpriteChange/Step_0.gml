@@ -1,4 +1,4 @@
-if place_meeting(objAstral.x + xspd, objAstral.y, objSpriteChange) {
+if place_meeting(objAstral.x + objAstral.xspd, objAstral.y, objSpriteChange) {
 	gridx = floor(objAstral.x / 20);
 	gridy = floor(objAstral.y / 20);
 	
