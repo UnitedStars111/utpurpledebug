@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objTextboxOpener",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object8",
+  "eventList":[],
   "managed":true,
-  "name":"objTextboxOpener",
+  "name":"Object8",
   "overriddenProperties":[],
   "parent":{
-    "name":"Dialogue",
-    "path":"folders/Dialogue.yy",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprTextboxOpener",
-    "path":"sprites/sprTextboxOpener/sprTextboxOpener.yy",
+    "name":"Sprite27",
+    "path":"sprites/Sprite27/Sprite27.yy",
   },
   "spriteMaskId":null,
   "visible":true,
