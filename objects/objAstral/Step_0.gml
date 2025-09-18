@@ -20,11 +20,11 @@ if run_key = true {
 }
 
 // collision
-if place_meeting(x + xspd, y, objWall) {
+if(place_meeting(x + xspd, y,Obj_C_Parent))
 	xspd = 0;
-}
+	
 
-if place_meeting(x, y + yspd, objWall) {
+if place_meeting(x, y + yspd, Obj_C_Parent) {
 	yspd = 0;
 }
 

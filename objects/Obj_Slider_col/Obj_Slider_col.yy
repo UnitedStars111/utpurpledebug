@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objWall",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_Slider_col",
+  "eventList":[],
   "managed":true,
-  "name":"objWall",
+  "name":"Obj_Slider_col",
   "overriddenProperties":[],
   "parent":{
     "name":"BlocksAndCol",
@@ -33,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprWall",
-    "path":"sprites/sprWall/sprWall.yy",
+    "name":"Spr_Slider_Col",
+    "path":"sprites/Spr_Slider_Col/Spr_Slider_Col.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

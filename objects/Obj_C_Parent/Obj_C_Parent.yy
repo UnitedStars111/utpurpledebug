@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"objWall",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_C_Parent",
+  "eventList":[],
   "managed":true,
-  "name":"objWall",
+  "name":"Obj_C_Parent",
   "overriddenProperties":[],
   "parent":{
     "name":"BlocksAndCol",
     "path":"folders/Objects/BlocksAndCol.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_C_Parent",
-    "path":"objects/Obj_C_Parent/Obj_C_Parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":{
-    "name":"sprWall",
-    "path":"sprites/sprWall/sprWall.yy",
-  },
+  "solid":true,
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

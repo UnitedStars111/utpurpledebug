@@ -11,8 +11,8 @@
   "name":"objTransition",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"BlocksAndCol",
+    "path":"folders/Objects/BlocksAndCol.yy",
   },
   "parentObjectId":null,
   "persistent":true,
