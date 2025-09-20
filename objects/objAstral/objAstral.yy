@@ -34,6 +34,9 @@
     "name":"sprAstralWalkDown",
     "path":"sprites/sprAstralWalkDown/sprAstralWalkDown.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Spr_Astral_Hitbox",
+    "path":"sprites/Spr_Astral_Hitbox/Spr_Astral_Hitbox.yy",
+  },
   "visible":true,
 }
