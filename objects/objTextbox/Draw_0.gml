@@ -41,7 +41,7 @@ if confirmkey {
 			draw_char = 0;
 		} else {
 			// destroy textbox
-			instance_destroy();
+			instance_destroy(objTextbox);
 		}
 	} else if skip_key and draw_char != text_length[page] {
 	draw_char = text_length[page]; }

@@ -9,10 +9,11 @@ line_width = textbox_width - border * 2;
 textbox_sprite = sprTextbox;
 textbox_img = 0;
 textbox_spd = 0;
+text_x_offset = 16;
 
-// text
+// typing
 page = 0;
-text[0] = "hello";
+text[0] = "test";
 text_length[0] = string_length(text[0]);
 page_number = 0;
 draw_char = 0;
