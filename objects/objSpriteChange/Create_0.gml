@@ -1,1 +1,0 @@
-target_tile = 0;

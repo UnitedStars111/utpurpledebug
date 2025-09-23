@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objSpriteChange",
+  "%Name":"Obj_Sprite_Draws",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objAstral","path":"objects/objAstral/objAstral.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objSpriteChange",
+  "name":"Obj_Sprite_Draws",
   "overriddenProperties":[],
   "parent":{
     "name":"BlocksAndCol",
@@ -35,5 +36,5 @@
     "path":"sprites/sprSpriteChanger/sprSpriteChanger.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
