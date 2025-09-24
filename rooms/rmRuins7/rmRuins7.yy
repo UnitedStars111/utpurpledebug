@@ -16,6 +16,8 @@
     {"name":"inst_44C72099","path":"rooms/rmRuins7/rmRuins7.yy",},
     {"name":"inst_500BE93A","path":"rooms/rmRuins7/rmRuins7.yy",},
     {"name":"inst_120FAFAE","path":"rooms/rmRuins7/rmRuins7.yy",},
+    {"name":"inst_69C593C9","path":"rooms/rmRuins7/rmRuins7.yy",},
+    {"name":"inst_58CE0E91","path":"rooms/rmRuins7/rmRuins7.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -37,7 +39,7 @@
           4,171,172,172,173,-12,-2147483648,4,171,172,172,173,-7,-2147483648,-2,140,7,141,-2147483648,-2147483648,
           203,204,204,205,-6,-2147483648,4,171,172,172,173,-12,-2147483648,4,171,172,172,173,-12,-2147483648,4,
           203,204,204,205,-39,-2147483648,1,177,-15,-2147483648,1,177,-15,-2147483648,1,177,-113,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ruinstiles1","path":"tilesets/ruinstiles1/ruinstiles1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ruinstiles1","path":"tilesets/ruinstiles1/ruinstiles1.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Ground","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Ground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":16,"TileCompressedData":[
           -2,-2147483648,1,16,-3,9,4,45,-2147483648,-2147483648,44,-3,9,13,17,-2147483648,-2147483648,9,9,45,65,
           1,65,66,-2147483648,-2147483648,64,-3,65,22,10,-2147483648,-2147483648,72,72,73,2,65,65,66,-2147483648,
@@ -51,9 +53,12 @@
           65,-2147483648,-2147483648,11,-6,136,-2,135,-2,136,6,96,97,97,-2147483648,-2147483648,11,-6,136,-7,135,
           -2,-2147483648,1,11,-6,136,1,109,-6,135,-2,-2147483648,1,11,-10,136,6,12,8,8,-2147483648,-2147483648,
           11,-10,136,1,10,-4,-2147483648,1,48,-10,8,1,49,-34,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ruinstiles1","path":"tilesets/ruinstiles1/ruinstiles1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"sprBackground","path":"sprites/sprBackground/sprBackground.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ruinstiles1","path":"tilesets/ruinstiles1/ruinstiles1.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+    {"$GMRInstanceLayer":"","%Name":"Warps","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v2","%Name":"inst_69C593C9","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69C593C9","objectId":{"name":"objWarp","path":"objects/objWarp/objWarp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.296875,"scaleY":0.625,"x":1.0,"y":100.0,},
+        {"$GMRInstance":"v2","%Name":"inst_58CE0E91","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_58CE0E91","objectId":{"name":"objWarp","path":"objects/objWarp/objWarp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.625,"scaleY":0.03125,"x":140.0,"y":60.0,},
+      ],"layers":[],"name":"Warps","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rmRuins7",
   "parent":{

@@ -8,7 +8,6 @@
   "instanceCreationOrder":[
     {"name":"inst_2CB65B65","path":"rooms/rmRuins2/rmRuins2.yy",},
     {"name":"inst_28A17FED","path":"rooms/rmRuins2/rmRuins2.yy",},
-    {"name":"inst_3354D1EE","path":"rooms/rmRuins2/rmRuins2.yy",},
     {"name":"inst_478452F0","path":"rooms/rmRuins2/rmRuins2.yy",},
     {"name":"inst_3DED44A5","path":"rooms/rmRuins2/rmRuins2.yy",},
     {"name":"inst_45BEDC95","path":"rooms/rmRuins2/rmRuins2.yy",},
@@ -50,7 +49,6 @@
         {"$GMRInstance":"v2","%Name":"inst_478452F0","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_478452F0","objectId":{"name":"objTextboxOpener","path":"objects/objTextboxOpener/objTextboxOpener.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.1875,"scaleY":1.0,"x":81.0,"y":64.0,},
       ],"layers":[],"name":"Interactable_Objects","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Character","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_3354D1EE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3354D1EE","objectId":{"name":"objAstral","path":"objects/objAstral/objAstral.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":158.0,"y":193.0,},
         {"$GMRInstance":"v2","%Name":"inst_C254F27","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C254F27","objectId":{"name":"objTextboxOpener","path":"objects/objTextboxOpener/objTextboxOpener.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.1875,"scaleY":1.0,"x":81.0,"y":64.0,},
       ],"layers":[],"name":"Character","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Collision","depth":300,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
