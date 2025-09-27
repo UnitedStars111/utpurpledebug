@@ -3,8 +3,10 @@ if swit = false {
 		swit = true;
 		image_index = 1;
 		image_speed = 1;
+		solid = false;
 	} else {
 		image_index = 0;
 		swit = false;
+		solid = true;
 	}
 }
