@@ -5,3 +5,12 @@ typedElement = {
 
 currentElement = noone;
 typed = noone;
+event = 0;
+
+if room = rmRuins2 {
+	if event = 3 {
+		instance_destroy(objDoor);
+	} else {
+		event = 0;
+	}
+}

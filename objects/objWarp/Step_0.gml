@@ -5,5 +5,5 @@ if place_meeting(x, y, objAstral) and !instance_exists(objTransition) and objAst
 	instantiated.target_rm = target_rm;
 	objAstral.xspd = 0;
 	objAstral.yspd = 0;
-	objAstral.can_move = false;
+	objAstral.canMove = false;
 }

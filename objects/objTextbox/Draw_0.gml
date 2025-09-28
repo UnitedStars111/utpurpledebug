@@ -1,59 +1,48 @@
 confirmkey = keyboard_check_pressed(ord("Z")) or keyboard_check_pressed(vk_space);
-skip_key = keyboard_check_pressed(ord("C"));
+skipkey = keyboard_check_pressed(ord("C"));
 textbox_x = camera_get_view_x(view_camera[0]);
 textbox_y = camera_get_view_y(view_camera[0]) + 160;
 
-// setup
-
-if setup == false {
+if setup = false {
 	setup = true;
+	objAstral.canMove = false;
+	
 	draw_set_font(Dialoguefont);
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);
-
-// loop through the page
+	
 	page_number = array_length(text);
-	for (var p = 0 ; p < page_number ; p++ ) {
-		// get amount of characters per page
+	for (var p = 0; p < page_number ; p++) {
 		text_length[p] = string_length(text[p]);
 		
-		// get x position for textbox
-		text_x_offset = 16;
-		
-		
+		// no portrait
+		text_x_offset[p] = 16;
 	}
-
 }
-
-// typing the text
 
 if draw_char < text_length[page] {
 	draw_char += text_speed;
-	draw_char = clamp(draw_char, 0, text_length[page]);
+	draw_char = clamp(draw_char, 0, text_length[page])
 }
 
-// flip thru pages
 if confirmkey {
-	// if typing is done
 	if draw_char == text_length[page] {
 		if page < page_number - 1 {
 			page++;
 			draw_char = 0;
 		} else {
-			// destroy textbox
-			instance_destroy(objTextbox);
+			objAstral.canMove = true;
+			instance_destroy();
 		}
-	} else if skip_key and draw_char != text_length[page] {
-	draw_char = text_length[page]; }
+	}
+} else if skipkey and draw_char != text_length[page] {
+	draw_char = text_length[page];
 }
 
-// draw the textbox
-txtb_spr_w = sprite_get_width(textbox_sprite);
-txtb_spr_h = sprite_get_height(textbox_sprite);
+_drawtext = string_copy(text[page], 1, draw_char);
+textbox_sprite_w = sprite_get_width(textbox_sprite);
+textbox_sprite_h = sprite_get_height(textbox_sprite);
 
-// back of box
-draw_sprite_ext(textbox_sprite, textbox_img, textbox_x + text_x_offset, textbox_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 1);
+draw_sprite_ext(textbox_sprite, textbox_image, textbox_x + text_x_offset[page], textbox_y, textbox_width / textbox_sprite_w, textbox_height / textbox_sprite_h, 0, c_white, 1);
+draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y + border, _drawtext, line_sep, line_width);
 
-// draw text
-var _drawtext = string_copy(text[page], 1, draw_char);
-draw_text_ext(textbox_x + text_x_offset + border, textbox_y + border, _drawtext, line_sep, line_width);

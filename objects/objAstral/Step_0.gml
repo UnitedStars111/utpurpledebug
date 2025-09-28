@@ -38,6 +38,5 @@ if(_hor != 0 || _ver != 0)
 else
 	stopPlayer();
 
-
 #endregion movement
 

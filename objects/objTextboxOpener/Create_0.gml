@@ -1,2 +1,1 @@
-text[0] = "";
-interaction = false;
+text[0] = "eeeeee";
