@@ -16,4 +16,7 @@ draw_char = 0;
 text_speed = 1;
 textbox_image = 1;
 
+
+includes_portrait = false;
+portrait_sprite = sprSpeakingTest;
 setup = false;

@@ -99,6 +99,7 @@
     {"id":{"name":"sprRiver1","path":"sprites/sprRiver1/sprRiver1.yy",},},
     {"id":{"name":"sprRuinsTileset1","path":"sprites/sprRuinsTileset1/sprRuinsTileset1.yy",},},
     {"id":{"name":"sprRuinsTileset2","path":"sprites/sprRuinsTileset2/sprRuinsTileset2.yy",},},
+    {"id":{"name":"sprSpeakingTest","path":"sprites/sprSpeakingTest/sprSpeakingTest.yy",},},
     {"id":{"name":"sprSpriteChanger","path":"sprites/sprSpriteChanger/sprSpriteChanger.yy",},},
     {"id":{"name":"sprTextbox","path":"sprites/sprTextbox/sprTextbox.yy",},},
     {"id":{"name":"sprTextboxOpener","path":"sprites/sprTextboxOpener/sprTextboxOpener.yy",},},

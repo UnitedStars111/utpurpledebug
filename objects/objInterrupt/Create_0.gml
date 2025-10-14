@@ -1,6 +1,4 @@
 includes_portrait = true
 portrait_sprite = sprSpeakingTest
 canInterrupt = true
-text[0] = "interrupt test dialogue...";
-text[1] = "stay determined!";
-
+text = "placeholder dialogue: not set"

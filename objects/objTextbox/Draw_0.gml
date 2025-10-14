@@ -15,8 +15,12 @@ if setup = false {
 	for (var p = 0; p < page_number ; p++) {
 		text_length[p] = string_length(text[p]);
 		
-		// no portrait
+
+		// nortrait
 		text_x_offset[p] = 16;
+		
+		
+		
 	}
 }
 
@@ -44,5 +48,44 @@ textbox_sprite_w = sprite_get_width(textbox_sprite);
 textbox_sprite_h = sprite_get_height(textbox_sprite);
 
 draw_sprite_ext(textbox_sprite, textbox_image, textbox_x + text_x_offset[page], textbox_y, textbox_width / textbox_sprite_w, textbox_height / textbox_sprite_h, 0, c_white, 1);
-draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y + border, _drawtext, line_sep, line_width);
 
+var this_offset = text_x_offset[page];
+
+if (includes_portrait) {
+    var padding = 16;
+    var portrait_size = 32; // assuming 32x32 sprite
+    var border_offset = border;
+
+    // animation
+    var portrait_frame = (draw_char < text_length[page])
+        ? (current_time div 200) mod sprite_get_number(portrait_sprite)
+        : 0;
+
+    // Draw portrait
+    var portrait_x = textbox_x + border_offset + padding;
+    var portrait_y = textbox_y + border_offset + padding;
+
+    draw_sprite_ext(
+        portrait_sprite,
+        portrait_frame,
+        portrait_x,
+        portrait_y,
+        1, // no scaling
+        1,
+        0,
+        c_white,
+        1
+    );
+
+    // Shift text to the right by portrait width + padding
+    this_offset += portrait_size + 16;
+}
+
+// Draw text after portrait space
+draw_text_ext(
+    textbox_x + this_offset + border,
+    textbox_y + border,
+    _drawtext,
+    line_sep,
+    line_width
+);
