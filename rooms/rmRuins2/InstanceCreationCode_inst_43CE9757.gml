@@ -1,1 +1,0 @@
-text[0] = "The vines are too thick to see through.";
