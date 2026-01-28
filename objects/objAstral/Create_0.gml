@@ -14,6 +14,7 @@ playerStats =
 moveStats = 3;
 canMove = true;
 interaction = false;
+running = false //added by Vitto, I need this to add the controller support
 
 stopPlayer = function()
 {

@@ -37,11 +37,12 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"utpurple",
   "resources":[
     {"id":{"name":"Obj_C_Parent","path":"objects/Obj_C_Parent/Obj_C_Parent.yy",},},
+    {"id":{"name":"obj_controllersupport","path":"objects/obj_controllersupport/obj_controllersupport.yy",},},
     {"id":{"name":"Obj_Slider_col","path":"objects/Obj_Slider_col/Obj_Slider_col.yy",},},
     {"id":{"name":"Obj_Sprite_Draws","path":"objects/Obj_Sprite_Draws/Obj_Sprite_Draws.yy",},},
     {"id":{"name":"objAstral","path":"objects/objAstral/objAstral.yy",},},

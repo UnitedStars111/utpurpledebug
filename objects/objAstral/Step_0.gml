@@ -5,10 +5,17 @@ gpu_set_tex_filter(false);
 
 var _hor,_ver;
 
-_hor = keyboard_check(vk_right) - keyboard_check(vk_left);
-_ver = keyboard_check(vk_down) - keyboard_check(vk_up);
+if array_length(global.controllers) == 0{
+    _hor = keyboard_check(vk_right) - keyboard_check(vk_left);
+    _ver = keyboard_check(vk_down) - keyboard_check(vk_up);
+    running = keyboard_check(ord("X"))
+} else{
+    _hor = obj_controllersupport.right - obj_controllersupport.left
+    _ver = obj_controllersupport.down - obj_controllersupport.up
+    running = gamepad_button_check(global.controllers[0], gp_face2)
+}
 
-moveStats = (keyboard_check(ord("X")) ? 1.5 : 1);
+moveStats = (running ? 1.5 : 1);
 
 if(_hor != 0 || _ver != 0)
 {
